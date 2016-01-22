@@ -1,7 +1,7 @@
 Package.describe({
   summary: 'Helpers for Testing Space Flux Stores.',
   name: 'space:testing-flux',
-  version: '0.1.0',
+  version: '1.0.0',
   git: 'https://github.com/meteor-space/testing-flux.git',
   debugOnly: true
 });
@@ -18,13 +18,12 @@ Package.onUse(function(api) {
     'tracker',
     'check',
     'ecmascript',
-    'space:base@3.1.1',
-    'space:flux@0.6.1',
-    'space:testing@2.0.1',
+    'space:base@4.0.0',
     'practicalmeteor:munit@2.1.5'
   ]);
 
   api.addFiles([
+    'source/allow-to-ignore-some-struct-types.js',
     'source/stores-bdd-api.coffee'
   ]);
 
@@ -37,8 +36,7 @@ Package.onTest(function(api) {
     'check',
     'mongo',
     'underscore',
-    'space:testing',
-    'space:flux@0.6.1',
+    'space:testing@3.0.1',
     'practicalmeteor:munit@2.1.5'
   ]);
 
