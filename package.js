@@ -18,7 +18,7 @@ Package.onUse(function(api) {
     'tracker',
     'check',
     'ecmascript',
-    'space:base@4.0.0',
+    'space:base@4.0.1',
     'practicalmeteor:munit@2.1.5'
   ]);
 
