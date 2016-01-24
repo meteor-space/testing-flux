@@ -18,14 +18,14 @@ Package.onUse(function(api) {
     'tracker',
     'check',
     'ecmascript',
-    'space:base@4.0.0',
+    'space:base@4.0.1',
     'practicalmeteor:munit@2.1.5'
   ]);
 
   api.addFiles([
     'source/allow-to-ignore-some-struct-types.js',
     'source/stores-bdd-api.coffee'
-  ]);
+  ], 'client');
 
 });
 
