@@ -1,7 +1,7 @@
 Package.describe({
   summary: 'Helpers for Testing Space Flux Stores.',
   name: 'space:testing-flux',
-  version: '1.0.0',
+  version: '0.7.0',
   git: 'https://github.com/meteor-space/testing-flux.git',
   debugOnly: true
 });
